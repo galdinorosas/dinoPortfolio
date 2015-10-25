@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+	background-color: black;
+	letter-spacing: .03em;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*
+div{
+
+	border:1px solid white;
+}
+*/
+
+/* Beginning of the header section */
+.header{
+
+	width: 100%;
+	height: 6em;
+	background-color: black;
+}
+
+.header-container{
+
+	height: 6em;
+	width: 90%;
+	margin: 0 5%;
+
+}
+
+.container{
+
+	margin: 0 auto;
+}
+
+.image-container{
+	margin-top: 0.2em;
+	border-radius:50%;
+	box-shadow: 0em 0em 2em 0.1em #F16111;
+
+	height: 5.5em;
+	width: 5.5em;
+	background-image: url("../Images/profile-image.jpeg");
+	background-size: contain;
+	float:left;
+}
+
+ul{
+	padding-top:1.1em;
+	margin:0;
+	float:right;
+	
+}
+
+
+li{
+	padding:0.7em 1.1em;
+	margin-left:3em;
+	display:inline-block;
+	
+}
+
+
+
+a{
+	color:white;
+	text-decoration:none;
+}
+
+a:hover{
+
+	color:#7AEEEE;
+	padding:0.4em 0.8em;
+	border:0.4em inset #7AEEEE;
+}
+
+a:active{
+
+	color:pink;
+	padding:0.4em 0.8em;
+	border:0.4em inset pink;
+
+}
+
+
+
+
+
+
+
+
+hr{
+	background-color: black;
+	height:0.8em;
+	border:0;
+	padding: 0;
+	margin: 0;
+    box-shadow: inset 0 0.75em 0.75em -0.8em #FCF823;
+}
+
+.intro{
+	padding-top:7em;
+	width:100%;
+	height:40em;
+}
+
+.intro-container{
+
+	margin-top:7em;
+}
+
+
+
+h1,h2,h3{
+	text-align: center;
+	color:white;
+}
+
+h3{
+
+	font-size: 3em;
+	margin-bottom: 0.8em;
+}
+
+h2{
+
+	font-size: 2.5em;
+	margin-bottom:0;
+	margin-top:0.5em;
+}
+
+h1{
+	margin-top:0em;
+	font-size:4.5em;
+
+}
+
