@@ -1,16 +1,20 @@
 html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: border-box;
 }
 
-body{
-	font-family: 'Oswald', sans-serif;
-	background-color: black;
-	letter-spacing: .03em;
-	-webkit-font-smoothing: antialiased;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    letter-spacing: .03em;
+    -webkit-font-smoothing: antialiased;
+}
+
 
 /*
 div{
@@ -19,166 +23,139 @@ div{
 }
 */
 
+
 /* Beginning of the header section */
-.header{
 
-	width: 100%;
-	height: 6em;
-	background-color: black;
+.header {
+    width: 100%;
+    height: 6em;
+    background-color: black;
 }
 
-.header-container{
-
-	height: 6em;
-	width: 90%;
-	margin: 0 5%;
-
+.header-container {
+    height: 6em;
+    width: 90%;
+    margin: 0 5%;
 }
 
-.container{
-
-	margin: 0 auto;
+.container {
+    margin: 0 auto;
 }
 
-.image-container{
-	margin-top: 0.2em;
-	border-radius:50%;
-	box-shadow: 0em 0em 2em 0.1em #F16111;
-
-	height: 5.5em;
-	width: 5.5em;
-	background-image: url("../Images/profile-image.jpeg");
-
-	background-size: contain;
-	float:left;
+.image-container {
+    margin-top: 0.2em;
+    border-radius: 50%;
+    box-shadow: 0em 0em 2em 0.1em #F16111;
+    height: 5.5em;
+    width: 5.5em;
+    background-image: url("../Images/profile-image.jpeg");
+    background-size: contain;
+    float: left;
 }
 
-ul{
-	padding-top:1.1em;
-	margin:0;
-	float:right;
-	
+ul {
+    padding-top: 1.1em;
+    margin: 0;
+    float: right;
 }
 
-
-li{
-	padding:0.7em 1.1em;
-	margin-left:3em;
-	display:inline-block;
-	
+li {
+    padding: 0.7em 1.1em;
+    margin-left: 3em;
+    display: inline-block;
 }
 
-
-
-a{
-	color:white;
-	text-decoration:none;
+a {
+    color: white;
+    text-decoration: none;
 }
 
-.projects-link{
-
-	color:#7AEEEE;
-	padding:0.4em 0.8em;
-	border:0.4em inset #7AEEEE;
+.projects-link {
+    color: #7AEEEE;
+    padding: 0.4em 0.8em;
+    border: 0.4em inset #7AEEEE;
 }
 
-li>a:hover{
-
-	color:#7AEEEE;
-	padding:0.4em 0.8em;
-	border:0.4em inset #7AEEEE;
+li>a:hover {
+    color: #7AEEEE;
+    padding: 0.4em 0.8em;
+    border: 0.4em inset #7AEEEE;
 }
 
-li>a:active{
-
-	color:pink;
-	padding:0.4em 0.8em;
-	border:0.4em inset pink;
-
+li>a:active {
+    color: pink;
+    padding: 0.4em 0.8em;
+    border: 0.4em inset pink;
 }
 
-
-
-hr{
-	background-color: black;
-	height:0.8em;
-	border:0;
-	padding: 0;
-	margin: 0;
+hr {
+    background-color: black;
+    height: 0.8em;
+    border: 0;
+    padding: 0;
+    margin: 0;
     box-shadow: inset 0 0.75em 0.75em -0.8em #FCF823;
 }
 
-.projects-container{
-	margin-top:8%;
-	width:100%;
-	height:40em;
+.projects-container {
+    margin-top: 8%;
+    width: 100%;
+    height: 40em;
 }
 
-
-
-.title-container{
-
-	width:50%;
-	height:5em;
-	margin-left:25%;
+.title-container {
+    width: 50%;
+    height: 5em;
+    margin-left: 25%;
 }
 
-.first-row{
-	margin-top:0;
-	margin-left:25%;
-	width:50%;
-	height:15em;
+.first-row {
+    margin-top: 0;
+    margin-left: 25%;
+    width: 50%;
+    height: 15em;
 }
 
-.newyorktimes-title{
-	margin-bottom:0;
-	color:white;
-	float:left;
+.newyorktimes-title {
+    margin-bottom: 0;
+    color: white;
+    float: left;
 }
 
-.landing-page-clone-title{
-	color: white;
-	float:right;
-	margin-bottom:0;
-	position: relative;
-	left:0.5em;
+.landing-page-clone-title {
+    color: white;
+    float: right;
+    margin-bottom: 0;
+    position: relative;
+    left: 0.5em;
 }
 
-.newyorktimes{
-	background-image: url("../Images/newyorktimes.jpeg");
-	background-size: cover;
-	background-position: center;
-	height:100%;
-	width: 15em;
-	float:left;
+.newyorktimes {
+    background-image: url("../Images/newyorktimes.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 15em;
+    float: left;
 }
 
-.newyorktimes:hover{
-
-	color:red;
-	padding:0.4em 0.8em;
-	border:0.4em inset red;
+.newyorktimes:hover {
+    color: red;
+    padding: 0.4em 0.8em;
+    border: 0.4em inset red;
 }
 
-
-
-.landing-page-clone{
-	background-image: url("../Images/landing-page-clone.jpeg");
-	background-size: cover;
-	background-position: center;
-
-	height:100%;
-	width: 15em;
-	float:right;
-
+.landing-page-clone {
+    background-image: url("../Images/landing-page-clone.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 15em;
+    float: right;
 }
 
-.landing-page-clone:hover{
-		color:red;
-	padding:0.4em 0.8em;
-	border:0.4em inset red;
- 	
- }
-
-
-
+.landing-page-clone:hover {
+    color: red;
+    padding: 0.4em 0.8em;
+    border: 0.4em inset red;
+}

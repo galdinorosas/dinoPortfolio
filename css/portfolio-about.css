@@ -1,16 +1,20 @@
 html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: border-box;
 }
 
-body{
-	font-family: 'Oswald', sans-serif;
-	background-color: black;
-	letter-spacing: .03em;
-	-webkit-font-smoothing: antialiased;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    letter-spacing: .03em;
+    -webkit-font-smoothing: antialiased;
+}
+
 
 /*
 div{
@@ -19,100 +23,80 @@ div{
 }
 */
 
+
 /* Beginning of the header section */
-.header{
 
-	width: 100%;
-	height: 6em;
-	background-color: black;
+.header {
+    width: 100%;
+    height: 6em;
+    background-color: black;
 }
 
-.header-container{
-
-	height: 6em;
-	width: 90%;
-	margin: 0 5%;
-
+.header-container {
+    height: 6em;
+    width: 90%;
+    margin: 0 5%;
 }
 
-.container{
-
-	margin: 0 auto;
+.container {
+    margin: 0 auto;
 }
 
-.image-container{
-	margin-top: 0.2em;
-	border-radius:50%;
-	box-shadow: 0em 0em 2em 0.1em #F16111;
-
-	height: 5.5em;
-	width: 5.5em;
-	background-image: url("../Images/profile-image.jpeg");
-	background-size: contain;
-	float:left;
+.image-container {
+    margin-top: 0.2em;
+    border-radius: 50%;
+    box-shadow: 0em 0em 2em 0.1em #F16111;
+    height: 5.5em;
+    width: 5.5em;
+    background-image: url("../Images/profile-image.jpeg");
+    background-size: contain;
+    float: left;
 }
 
-ul{
-	padding-top:1.1em;
-	margin:0;
-	float:right;
-	
+ul {
+    padding-top: 1.1em;
+    margin: 0;
+    float: right;
 }
 
-
-li{
-	padding:0.7em 1.1em;
-	margin-left:3em;
-	display:inline-block;
-	
+li {
+    padding: 0.7em 1.1em;
+    margin-left: 3em;
+    display: inline-block;
 }
 
-
-
-a{
-	color:white;
-	text-decoration:none;
+a {
+    color: white;
+    text-decoration: none;
 }
 
-.about-link{
-
-	color:#7AEEEE;
-	padding:0.4em 0.8em;
-	border:0.4em inset #7AEEEE;
+.about-link {
+    color: #7AEEEE;
+    padding: 0.4em 0.8em;
+    border: 0.4em inset #7AEEEE;
 }
 
-a:hover{
-
-	color:#7AEEEE;
-	padding:0.4em 0.8em;
-	border:0.4em inset #7AEEEE;
+a:hover {
+    color: #7AEEEE;
+    padding: 0.4em 0.8em;
+    border: 0.4em inset #7AEEEE;
 }
 
-a:active{
-
-	color:pink;
-	padding:0.4em 0.8em;
-	border:0.4em inset pink;
-
+a:active {
+    color: pink;
+    padding: 0.4em 0.8em;
+    border: 0.4em inset pink;
 }
 
-
-
-hr{
-	background-color: black;
-	height:0.8em;
-	border:0;
-	padding: 0;
-	margin: 0;
+hr {
+    background-color: black;
+    height: 0.8em;
+    border: 0;
+    padding: 0;
+    margin: 0;
     box-shadow: inset 0 0.75em 0.75em -0.8em #FCF823;
 }
 
-object{
-
-	height:50em;
+object {
+    height: 50em;
 }
-
-
-
-
-
